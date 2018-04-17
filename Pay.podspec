@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.swift_version = '4.0'
-  s.source_files  = "Pay/*.{h,m,swift}"
+  s.source_files  = "Pay/Sources/*.{h,m,swift,xib}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
