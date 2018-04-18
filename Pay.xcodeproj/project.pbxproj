@@ -10,10 +10,9 @@
 		3947AFCB2086DBB600AC0068 /* Pay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947AFC12086DBB600AC0068 /* Pay.framework */; };
 		3947AFD02086DBB600AC0068 /* PayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947AFCF2086DBB600AC0068 /* PayTests.swift */; };
 		3947AFD22086DBB600AC0068 /* Pay.h in Headers */ = {isa = PBXBuildFile; fileRef = 3947AFC42086DBB600AC0068 /* Pay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3947AFE02086DC1200AC0068 /* RefundController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3947AFDC2086DC1200AC0068 /* RefundController.xib */; };
-		3947AFE12086DC1200AC0068 /* PaymentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3947AFDD2086DC1200AC0068 /* PaymentController.xib */; };
 		3947AFE22086DC1200AC0068 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947AFDE2086DC1200AC0068 /* PaymentController.swift */; };
 		3947AFE32086DC1200AC0068 /* RefundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947AFDF2086DC1200AC0068 /* RefundController.swift */; };
+		3947AFE52086E2FD00AC0068 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3947AFE42086E2FD00AC0068 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +32,9 @@
 		3947AFCA2086DBB600AC0068 /* PayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3947AFCF2086DBB600AC0068 /* PayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayTests.swift; sourceTree = "<group>"; };
 		3947AFD12086DBB600AC0068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3947AFDC2086DC1200AC0068 /* RefundController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefundController.xib; sourceTree = "<group>"; };
-		3947AFDD2086DC1200AC0068 /* PaymentController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentController.xib; sourceTree = "<group>"; };
 		3947AFDE2086DC1200AC0068 /* PaymentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
 		3947AFDF2086DC1200AC0068 /* RefundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefundController.swift; sourceTree = "<group>"; };
+		3947AFE42086E2FD00AC0068 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				3947AFDB2086DC1200AC0068 /* Sources */,
+				3947AFE42086E2FD00AC0068 /* Settings.bundle */,
 				3947AFC42086DBB600AC0068 /* Pay.h */,
 				3947AFC52086DBB600AC0068 /* Info.plist */,
 			);
@@ -98,8 +97,6 @@
 		3947AFDB2086DC1200AC0068 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3947AFDC2086DC1200AC0068 /* RefundController.xib */,
-				3947AFDD2086DC1200AC0068 /* PaymentController.xib */,
 				3947AFDE2086DC1200AC0068 /* PaymentController.swift */,
 				3947AFDF2086DC1200AC0068 /* RefundController.swift */,
 			);
@@ -197,8 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3947AFE12086DC1200AC0068 /* PaymentController.xib in Resources */,
-				3947AFE02086DC1200AC0068 /* RefundController.xib in Resources */,
+				3947AFE52086E2FD00AC0068 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Pay"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "蔚来汽车"
 
   # This description is used to generate tags and improve search results.
@@ -104,14 +104,11 @@ Pod::Spec.new do |s|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-  s.resource_bundles = {
-    '{Pay}' => ['{Pay}/Sources/*.xib']
-  }
+
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resources = "Pay/*.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
