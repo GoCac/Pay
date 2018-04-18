@@ -7,160 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39C3F1CE2085C53E000CF33E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3F1CD2085C53E000CF33E /* AppDelegate.swift */; };
-		39C3F1D02085C53E000CF33E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3F1CF2085C53E000CF33E /* ViewController.swift */; };
-		39C3F1D32085C53E000CF33E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C3F1D12085C53E000CF33E /* Main.storyboard */; };
-		39C3F1D52085C540000CF33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C3F1D42085C540000CF33E /* Assets.xcassets */; };
-		39C3F1D82085C540000CF33E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C3F1D62085C540000CF33E /* LaunchScreen.storyboard */; };
-		39C3F1E32085C540000CF33E /* PayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3F1E22085C540000CF33E /* PayTests.swift */; };
-		39C3F1EE2085C540000CF33E /* PayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3F1ED2085C540000CF33E /* PayUITests.swift */; };
+		3947AFCB2086DBB600AC0068 /* Pay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947AFC12086DBB600AC0068 /* Pay.framework */; };
+		3947AFD02086DBB600AC0068 /* PayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947AFCF2086DBB600AC0068 /* PayTests.swift */; };
+		3947AFD22086DBB600AC0068 /* Pay.h in Headers */ = {isa = PBXBuildFile; fileRef = 3947AFC42086DBB600AC0068 /* Pay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3947AFE02086DC1200AC0068 /* RefundController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3947AFDC2086DC1200AC0068 /* RefundController.xib */; };
+		3947AFE12086DC1200AC0068 /* PaymentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3947AFDD2086DC1200AC0068 /* PaymentController.xib */; };
+		3947AFE22086DC1200AC0068 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947AFDE2086DC1200AC0068 /* PaymentController.swift */; };
+		3947AFE32086DC1200AC0068 /* RefundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947AFDF2086DC1200AC0068 /* RefundController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		39C3F1DF2085C540000CF33E /* PBXContainerItemProxy */ = {
+		3947AFCC2086DBB600AC0068 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39C3F1C22085C53E000CF33E /* Project object */;
+			containerPortal = 3947AFB82086DBB600AC0068 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 39C3F1C92085C53E000CF33E;
-			remoteInfo = Pay;
-		};
-		39C3F1EA2085C540000CF33E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39C3F1C22085C53E000CF33E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 39C3F1C92085C53E000CF33E;
+			remoteGlobalIDString = 3947AFC02086DBB600AC0068;
 			remoteInfo = Pay;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		39C3F1CA2085C53E000CF33E /* Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		39C3F1CD2085C53E000CF33E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39C3F1CF2085C53E000CF33E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		39C3F1D22085C53E000CF33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		39C3F1D42085C540000CF33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		39C3F1D72085C540000CF33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		39C3F1D92085C540000CF33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39C3F1DE2085C540000CF33E /* PayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		39C3F1E22085C540000CF33E /* PayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayTests.swift; sourceTree = "<group>"; };
-		39C3F1E42085C540000CF33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39C3F1E92085C540000CF33E /* PayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		39C3F1ED2085C540000CF33E /* PayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayUITests.swift; sourceTree = "<group>"; };
-		39C3F1EF2085C540000CF33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39C3F2212085C5B3000CF33E /* Target_Pay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Pay.swift; sourceTree = "<group>"; };
-		39C3F2232085C5B4000CF33E /* RefundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefundController.swift; sourceTree = "<group>"; };
-		39C3F2242085C5B4000CF33E /* RefundController.xib */ = {isa = PBXFileReference; path = RefundController.xib; sourceTree = "<group>"; };
-		39C3F2252085C5B4000CF33E /* PaymentController.swift */ = {isa = PBXFileReference; path = PaymentController.swift; sourceTree = "<group>"; };
-		39C3F2262085C5B4000CF33E /* PaymentController.xib */ = {isa = PBXFileReference; path = PaymentController.xib; sourceTree = "<group>"; };
+		3947AFC12086DBB600AC0068 /* Pay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3947AFC42086DBB600AC0068 /* Pay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pay.h; sourceTree = "<group>"; };
+		3947AFC52086DBB600AC0068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3947AFCA2086DBB600AC0068 /* PayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3947AFCF2086DBB600AC0068 /* PayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayTests.swift; sourceTree = "<group>"; };
+		3947AFD12086DBB600AC0068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3947AFDC2086DC1200AC0068 /* RefundController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefundController.xib; sourceTree = "<group>"; };
+		3947AFDD2086DC1200AC0068 /* PaymentController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentController.xib; sourceTree = "<group>"; };
+		3947AFDE2086DC1200AC0068 /* PaymentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
+		3947AFDF2086DC1200AC0068 /* RefundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefundController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		39C3F1C72085C53E000CF33E /* Frameworks */ = {
+		3947AFBD2086DBB600AC0068 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39C3F1DB2085C540000CF33E /* Frameworks */ = {
+		3947AFC72086DBB600AC0068 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39C3F1E62085C540000CF33E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3947AFCB2086DBB600AC0068 /* Pay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39C3F1C12085C53E000CF33E = {
+		3947AFB72086DBB600AC0068 = {
 			isa = PBXGroup;
 			children = (
-				39C3F1CC2085C53E000CF33E /* Pay */,
-				39C3F1E12085C540000CF33E /* PayTests */,
-				39C3F1EC2085C540000CF33E /* PayUITests */,
-				39C3F1CB2085C53E000CF33E /* Products */,
+				3947AFC32086DBB600AC0068 /* Pay */,
+				3947AFCE2086DBB600AC0068 /* PayTests */,
+				3947AFC22086DBB600AC0068 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		39C3F1CB2085C53E000CF33E /* Products */ = {
+		3947AFC22086DBB600AC0068 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				39C3F1CA2085C53E000CF33E /* Pay.app */,
-				39C3F1DE2085C540000CF33E /* PayTests.xctest */,
-				39C3F1E92085C540000CF33E /* PayUITests.xctest */,
+				3947AFC12086DBB600AC0068 /* Pay.framework */,
+				3947AFCA2086DBB600AC0068 /* PayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		39C3F1CC2085C53E000CF33E /* Pay */ = {
+		3947AFC32086DBB600AC0068 /* Pay */ = {
 			isa = PBXGroup;
 			children = (
-				39C3F2222085C5B3000CF33E /* Target */,
-				39C3F2272085C5B4000CF33E /* Sources */,
-				39C3F1CD2085C53E000CF33E /* AppDelegate.swift */,
-				39C3F1CF2085C53E000CF33E /* ViewController.swift */,
-				39C3F1D12085C53E000CF33E /* Main.storyboard */,
-				39C3F1D42085C540000CF33E /* Assets.xcassets */,
-				39C3F1D62085C540000CF33E /* LaunchScreen.storyboard */,
-				39C3F1D92085C540000CF33E /* Info.plist */,
+				3947AFDB2086DC1200AC0068 /* Sources */,
+				3947AFC42086DBB600AC0068 /* Pay.h */,
+				3947AFC52086DBB600AC0068 /* Info.plist */,
 			);
 			path = Pay;
 			sourceTree = "<group>";
 		};
-		39C3F1E12085C540000CF33E /* PayTests */ = {
+		3947AFCE2086DBB600AC0068 /* PayTests */ = {
 			isa = PBXGroup;
 			children = (
-				39C3F1E22085C540000CF33E /* PayTests.swift */,
-				39C3F1E42085C540000CF33E /* Info.plist */,
+				3947AFCF2086DBB600AC0068 /* PayTests.swift */,
+				3947AFD12086DBB600AC0068 /* Info.plist */,
 			);
 			path = PayTests;
 			sourceTree = "<group>";
 		};
-		39C3F1EC2085C540000CF33E /* PayUITests */ = {
+		3947AFDB2086DC1200AC0068 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				39C3F1ED2085C540000CF33E /* PayUITests.swift */,
-				39C3F1EF2085C540000CF33E /* Info.plist */,
-			);
-			path = PayUITests;
-			sourceTree = "<group>";
-		};
-		39C3F2222085C5B3000CF33E /* Target */ = {
-			isa = PBXGroup;
-			children = (
-				39C3F2212085C5B3000CF33E /* Target_Pay.swift */,
-			);
-			path = Target;
-			sourceTree = "<group>";
-		};
-		39C3F2272085C5B4000CF33E /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				39C3F2232085C5B4000CF33E /* RefundController.swift */,
-				39C3F2242085C5B4000CF33E /* RefundController.xib */,
-				39C3F2252085C5B4000CF33E /* PaymentController.swift */,
-				39C3F2262085C5B4000CF33E /* PaymentController.xib */,
+				3947AFDC2086DC1200AC0068 /* RefundController.xib */,
+				3947AFDD2086DC1200AC0068 /* PaymentController.xib */,
+				3947AFDE2086DC1200AC0068 /* PaymentController.swift */,
+				3947AFDF2086DC1200AC0068 /* RefundController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		3947AFBE2086DBB600AC0068 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3947AFD22086DBB600AC0068 /* Pay.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		39C3F1C92085C53E000CF33E /* Pay */ = {
+		3947AFC02086DBB600AC0068 /* Pay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39C3F1F22085C540000CF33E /* Build configuration list for PBXNativeTarget "Pay" */;
+			buildConfigurationList = 3947AFD52086DBB600AC0068 /* Build configuration list for PBXNativeTarget "Pay" */;
 			buildPhases = (
-				39C3F1C62085C53E000CF33E /* Sources */,
-				39C3F1C72085C53E000CF33E /* Frameworks */,
-				39C3F1C82085C53E000CF33E /* Resources */,
+				3947AFBC2086DBB600AC0068 /* Sources */,
+				3947AFBD2086DBB600AC0068 /* Frameworks */,
+				3947AFBE2086DBB600AC0068 /* Headers */,
+				3947AFBF2086DBB600AC0068 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -168,107 +135,74 @@
 			);
 			name = Pay;
 			productName = Pay;
-			productReference = 39C3F1CA2085C53E000CF33E /* Pay.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 3947AFC12086DBB600AC0068 /* Pay.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		39C3F1DD2085C540000CF33E /* PayTests */ = {
+		3947AFC92086DBB600AC0068 /* PayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39C3F1F52085C540000CF33E /* Build configuration list for PBXNativeTarget "PayTests" */;
+			buildConfigurationList = 3947AFD82086DBB600AC0068 /* Build configuration list for PBXNativeTarget "PayTests" */;
 			buildPhases = (
-				39C3F1DA2085C540000CF33E /* Sources */,
-				39C3F1DB2085C540000CF33E /* Frameworks */,
-				39C3F1DC2085C540000CF33E /* Resources */,
+				3947AFC62086DBB600AC0068 /* Sources */,
+				3947AFC72086DBB600AC0068 /* Frameworks */,
+				3947AFC82086DBB600AC0068 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39C3F1E02085C540000CF33E /* PBXTargetDependency */,
+				3947AFCD2086DBB600AC0068 /* PBXTargetDependency */,
 			);
 			name = PayTests;
 			productName = PayTests;
-			productReference = 39C3F1DE2085C540000CF33E /* PayTests.xctest */;
+			productReference = 3947AFCA2086DBB600AC0068 /* PayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		39C3F1E82085C540000CF33E /* PayUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39C3F1F82085C540000CF33E /* Build configuration list for PBXNativeTarget "PayUITests" */;
-			buildPhases = (
-				39C3F1E52085C540000CF33E /* Sources */,
-				39C3F1E62085C540000CF33E /* Frameworks */,
-				39C3F1E72085C540000CF33E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				39C3F1EB2085C540000CF33E /* PBXTargetDependency */,
-			);
-			name = PayUITests;
-			productName = PayUITests;
-			productReference = 39C3F1E92085C540000CF33E /* PayUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		39C3F1C22085C53E000CF33E /* Project object */ = {
+		3947AFB82086DBB600AC0068 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Youhao Gong 宫酉昊";
 				TargetAttributes = {
-					39C3F1C92085C53E000CF33E = {
+					3947AFC02086DBB600AC0068 = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					39C3F1DD2085C540000CF33E = {
+					3947AFC92086DBB600AC0068 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 39C3F1C92085C53E000CF33E;
-					};
-					39C3F1E82085C540000CF33E = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 39C3F1C92085C53E000CF33E;
 					};
 				};
 			};
-			buildConfigurationList = 39C3F1C52085C53E000CF33E /* Build configuration list for PBXProject "Pay" */;
+			buildConfigurationList = 3947AFBB2086DBB600AC0068 /* Build configuration list for PBXProject "Pay" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 39C3F1C12085C53E000CF33E;
-			productRefGroup = 39C3F1CB2085C53E000CF33E /* Products */;
+			mainGroup = 3947AFB72086DBB600AC0068;
+			productRefGroup = 3947AFC22086DBB600AC0068 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39C3F1C92085C53E000CF33E /* Pay */,
-				39C3F1DD2085C540000CF33E /* PayTests */,
-				39C3F1E82085C540000CF33E /* PayUITests */,
+				3947AFC02086DBB600AC0068 /* Pay */,
+				3947AFC92086DBB600AC0068 /* PayTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		39C3F1C82085C53E000CF33E /* Resources */ = {
+		3947AFBF2086DBB600AC0068 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39C3F1D82085C540000CF33E /* LaunchScreen.storyboard in Resources */,
-				39C3F1D52085C540000CF33E /* Assets.xcassets in Resources */,
-				39C3F1D32085C53E000CF33E /* Main.storyboard in Resources */,
+				3947AFE12086DC1200AC0068 /* PaymentController.xib in Resources */,
+				3947AFE02086DC1200AC0068 /* RefundController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39C3F1DC2085C540000CF33E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39C3F1E72085C540000CF33E /* Resources */ = {
+		3947AFC82086DBB600AC0068 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,67 +212,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		39C3F1C62085C53E000CF33E /* Sources */ = {
+		3947AFBC2086DBB600AC0068 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39C3F1D02085C53E000CF33E /* ViewController.swift in Sources */,
-				39C3F1CE2085C53E000CF33E /* AppDelegate.swift in Sources */,
+				3947AFE22086DC1200AC0068 /* PaymentController.swift in Sources */,
+				3947AFE32086DC1200AC0068 /* RefundController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39C3F1DA2085C540000CF33E /* Sources */ = {
+		3947AFC62086DBB600AC0068 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39C3F1E32085C540000CF33E /* PayTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39C3F1E52085C540000CF33E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39C3F1EE2085C540000CF33E /* PayUITests.swift in Sources */,
+				3947AFD02086DBB600AC0068 /* PayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		39C3F1E02085C540000CF33E /* PBXTargetDependency */ = {
+		3947AFCD2086DBB600AC0068 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 39C3F1C92085C53E000CF33E /* Pay */;
-			targetProxy = 39C3F1DF2085C540000CF33E /* PBXContainerItemProxy */;
-		};
-		39C3F1EB2085C540000CF33E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 39C3F1C92085C53E000CF33E /* Pay */;
-			targetProxy = 39C3F1EA2085C540000CF33E /* PBXContainerItemProxy */;
+			target = 3947AFC02086DBB600AC0068 /* Pay */;
+			targetProxy = 3947AFCC2086DBB600AC0068 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		39C3F1D12085C53E000CF33E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39C3F1D22085C53E000CF33E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		39C3F1D62085C540000CF33E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39C3F1D72085C540000CF33E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		39C3F1F02085C540000CF33E /* Debug */ = {
+		3947AFD32086DBB600AC0068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,6 +274,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -395,10 +298,12 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		39C3F1F12085C540000CF33E /* Release */ = {
+		3947AFD42086DBB600AC0068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,6 +337,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -449,50 +355,65 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		39C3F1F32085C540000CF33E /* Debug */ = {
+		3947AFD62086DBB600AC0068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = L8MRL9B64V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Pay/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = none.Pay;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		39C3F1F42085C540000CF33E /* Release */ = {
+		3947AFD72086DBB600AC0068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = L8MRL9B64V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Pay/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = none.Pay;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		39C3F1F62085C540000CF33E /* Debug */ = {
+		3947AFD92086DBB600AC0068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L8MRL9B64V;
 				INFOPLIST_FILE = PayTests/Info.plist;
@@ -505,15 +426,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pay.app/Pay";
 			};
 			name = Debug;
 		};
-		39C3F1F72085C540000CF33E /* Release */ = {
+		3947AFDA2086DBB600AC0068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L8MRL9B64V;
 				INFOPLIST_FILE = PayTests/Info.plist;
@@ -526,90 +445,40 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pay.app/Pay";
-			};
-			name = Release;
-		};
-		39C3F1F92085C540000CF33E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L8MRL9B64V;
-				INFOPLIST_FILE = PayUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.PayUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Pay;
-			};
-			name = Debug;
-		};
-		39C3F1FA2085C540000CF33E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L8MRL9B64V;
-				INFOPLIST_FILE = PayUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.PayUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Pay;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		39C3F1C52085C53E000CF33E /* Build configuration list for PBXProject "Pay" */ = {
+		3947AFBB2086DBB600AC0068 /* Build configuration list for PBXProject "Pay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39C3F1F02085C540000CF33E /* Debug */,
-				39C3F1F12085C540000CF33E /* Release */,
+				3947AFD32086DBB600AC0068 /* Debug */,
+				3947AFD42086DBB600AC0068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39C3F1F22085C540000CF33E /* Build configuration list for PBXNativeTarget "Pay" */ = {
+		3947AFD52086DBB600AC0068 /* Build configuration list for PBXNativeTarget "Pay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39C3F1F32085C540000CF33E /* Debug */,
-				39C3F1F42085C540000CF33E /* Release */,
+				3947AFD62086DBB600AC0068 /* Debug */,
+				3947AFD72086DBB600AC0068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39C3F1F52085C540000CF33E /* Build configuration list for PBXNativeTarget "PayTests" */ = {
+		3947AFD82086DBB600AC0068 /* Build configuration list for PBXNativeTarget "PayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39C3F1F62085C540000CF33E /* Debug */,
-				39C3F1F72085C540000CF33E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		39C3F1F82085C540000CF33E /* Build configuration list for PBXNativeTarget "PayUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39C3F1F92085C540000CF33E /* Debug */,
-				39C3F1FA2085C540000CF33E /* Release */,
+				3947AFD92086DBB600AC0068 /* Debug */,
+				3947AFDA2086DBB600AC0068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 39C3F1C22085C53E000CF33E /* Project object */;
+	rootObject = 3947AFB82086DBB600AC0068 /* Project object */;
 }
