@@ -1,14 +1,14 @@
 //
-//  RefundController.swift
+//  APaymentController.swift
 //  CentralManager
 //
-//  Created by Youhao Gong 宫酉昊 on 2018/3/22.
+//  Created by Youhao Gong 宫酉昊 on 2018/4/17.
 //  Copyright © 2018年 Youhao Gong 宫酉昊. All rights reserved.
 //
 
 import UIKit
 
-class RefundController: UIViewController {
+class APaymentController: UIViewController {
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
@@ -19,6 +19,7 @@ class RefundController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
@@ -26,6 +27,7 @@ class RefundController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
     /*
     // MARK: - Navigation

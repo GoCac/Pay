@@ -10,9 +10,9 @@
 		3947AFCB2086DBB600AC0068 /* Pay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947AFC12086DBB600AC0068 /* Pay.framework */; };
 		3947AFD02086DBB600AC0068 /* PayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947AFCF2086DBB600AC0068 /* PayTests.swift */; };
 		3947AFD22086DBB600AC0068 /* Pay.h in Headers */ = {isa = PBXBuildFile; fileRef = 3947AFC42086DBB600AC0068 /* Pay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3947AFE22086DC1200AC0068 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947AFDE2086DC1200AC0068 /* PaymentController.swift */; };
-		3947AFE32086DC1200AC0068 /* RefundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947AFDF2086DC1200AC0068 /* RefundController.swift */; };
 		3947AFE52086E2FD00AC0068 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3947AFE42086E2FD00AC0068 /* Settings.bundle */; };
+		3947AFE82086EA3D00AC0068 /* APaymentControllerRefundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947AFE62086EA3C00AC0068 /* APaymentControllerRefundController.swift */; };
+		3947AFE92086EA3D00AC0068 /* APaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947AFE72086EA3D00AC0068 /* APaymentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +32,9 @@
 		3947AFCA2086DBB600AC0068 /* PayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3947AFCF2086DBB600AC0068 /* PayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayTests.swift; sourceTree = "<group>"; };
 		3947AFD12086DBB600AC0068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3947AFDE2086DC1200AC0068 /* PaymentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
-		3947AFDF2086DC1200AC0068 /* RefundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefundController.swift; sourceTree = "<group>"; };
 		3947AFE42086E2FD00AC0068 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		3947AFE62086EA3C00AC0068 /* APaymentControllerRefundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APaymentControllerRefundController.swift; sourceTree = "<group>"; };
+		3947AFE72086EA3D00AC0068 /* APaymentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APaymentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		3947AFDB2086DC1200AC0068 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3947AFDE2086DC1200AC0068 /* PaymentController.swift */,
-				3947AFDF2086DC1200AC0068 /* RefundController.swift */,
+				3947AFE72086EA3D00AC0068 /* APaymentController.swift */,
+				3947AFE62086EA3C00AC0068 /* APaymentControllerRefundController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -165,6 +165,7 @@
 				TargetAttributes = {
 					3947AFC02086DBB600AC0068 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					3947AFC92086DBB600AC0068 = {
 						CreatedOnToolsVersion = 9.3;
@@ -212,8 +213,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3947AFE22086DC1200AC0068 /* PaymentController.swift in Sources */,
-				3947AFE32086DC1200AC0068 /* RefundController.swift in Sources */,
+				3947AFE92086EA3D00AC0068 /* APaymentController.swift in Sources */,
+				3947AFE82086EA3D00AC0068 /* APaymentControllerRefundController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +360,7 @@
 		3947AFD62086DBB600AC0068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -368,6 +370,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Pay/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,6 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = none.Pay;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -384,6 +388,7 @@
 		3947AFD72086DBB600AC0068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -393,6 +398,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Pay/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
