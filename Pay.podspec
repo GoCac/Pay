@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Pay"
-  s.version      = "0.0.10"
+  s.version      = "0.0.11"
   s.summary      = "蔚来汽车"
 
   # This description is used to generate tags and improve search results.
@@ -106,7 +106,8 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Pay/*.bundle"
+
+  s.resources = "Pay/Sources/*.xib"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
