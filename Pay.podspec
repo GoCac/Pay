@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Pay"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "蔚来汽车"
 
   # This description is used to generate tags and improve search results.
@@ -91,10 +91,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.swift_version = '4.0'
-  s.source_files  = "Sources/*.{h,m,swift}"
+  s.source_files  = "Pay/Sources/*.{h,m,swift}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "*.h"
+  # s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
