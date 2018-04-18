@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Pay"
-  s.version      = "0.0.8"
+  s.version      = "0.0.10"
   s.summary      = "蔚来汽车"
 
   # This description is used to generate tags and improve search results.
